@@ -1,0 +1,30 @@
+.header {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+.wrapper {
+  justify-content: space-between;
+  background-color: black;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  text-decoration: none;
+  align-items: baseline;
+}
+.link {
+  color: white;
+  font-size: 20px;
+  margin-right: 7px;
+  transition: all .3s;
+  /*justify-content: space-between;*/
+}
+.link:hover {
+  background-color: white;
+  color: black;
+  font-size: 32px;
+  border-radius: 5px;
+}
+a:hover {
+  text-decoration: none;
+}
